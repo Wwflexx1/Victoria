@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вікторія Блогер - Творчий контент</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Вікторія</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Про мене</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#content" class="nav-link">Контент</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#social" class="nav-link">Соцмережі</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="image-container">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    Hi🎀 <!--, I'm <span class="highlight">Victoria</span>--> 
+                </h1>
+                <p class="hero-subtitle typing-text" id="typing-text">
+                    Blogger - Artist - Photographer
+                </p>
+                <p class="hero-description">
+                    I share my content, ideas and creativity with the world. Join me on my journey!
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Дізнатися більше</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About me</h2>
+                <p class="section-subtitle">Моя історія і пристрасть до творчості</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Як Блогер ділюсь своїми думками та ідеями в інтернет-просторі, створюючи контент, який надихає та інформує.
+                    </p>
+                    <p class="about-paragraph">
+                       Як Художниця через свої картини передаю красу
+                    </p>
+                    <p class="about-paragraph">
+                       Як Фотографиня ж фіксую моменти життя, перетворюючи їх на візуальні історії.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3000">0</span>
+                            <span class="stat-label">Subscribers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="250">0</span>
+                            <span class="stat-label">Posts</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>My Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Content creation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Photography</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Drawing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content" id="content">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Content</h2>
+                <p class="section-subtitle">Категорії та приклади моїх робіт</p>
+            </div>
+            <div class="content-categories">
+                <div class="category-card" data-category="photography">
+                    <div class="card-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="card-title">Photography</h3>
+                    <p class="card-description">
+                        Захоплюючі моменти та історії, зафіксовані об'єктивом
+                    </p>
+                </div>
+                <div class="category-card" data-category="lifestyle">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="card-title">Lifestyle</h3>
+                    <p class="card-description">
+                        Повсякденне життя, звички, саморозвиток та натхнення
+                    </p>
+                </div>
+                <div class="category-card" data-category="drawing">
+                    <div class="card-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="card-title">Drawing</h3>
+                    <p class="card-description">
+                        DIY проекти, арт, креативні ідеї
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social" id="social">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Social Media</h2>
+                <p class="section-subtitle">Слідкуйте за моїми оновленнями</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link instagram" data-platform="instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span class="social-name">Instagram</span>
+                </a>
+                <a href="#" class="social-link youtube" data-platform="youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span class="social-name">YouTube</span>
+                </a>
+                <a href="#" class="social-link tiktok" data-platform="tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span class="social-name">TikTok</span>
+                </a>
+                <a href="#" class="social-link telegram" data-platform="telegram">
+                    <i class="fab fa-telegram"></i>
+                    <span class="social-name">Telegram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Вікторія. Всі права захищені.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="footer-social-link">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
